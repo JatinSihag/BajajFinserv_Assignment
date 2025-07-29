@@ -1,4 +1,5 @@
 BFHL API - Data Transformation Service
+Author : Jatin Sihag 
 This is a simple Node.js REST API designed to process and categorize various data types as part of the BFHL (Backend Frontend Handling Logic) challenge. It handles numbers, alphabets, and special characters, performing specific transformations and calculations.
 
 How to Run Locally
@@ -53,9 +54,7 @@ Upon successfully processing the request, the API will return a JSON object cate
 Postman Screenshot of Example Response:
 ![alt text](<Screenshot 2025-07-29 201534.png>)
 
-Deployment
-This API can be easily deployed to popular cloud platforms such as Vercel, Railway, or Render.
+Deployment link :
+https://bajajfinserv-assignment-sz4y.onrender.com
 
-Vercel Specifics: If deploying to Vercel, you might need to add a vercel.json configuration file. Ensure your build command is set to npm install (or npm install && npm run build if you have a build step) and specify the output directory, usually /.
 
-Important Note: Remember to update the USER_FULL_NAME, USER_DATE_OF_BIRTH, USER_EMAIL, and USER_ROLL_NUMBER constants in your index.js file with your actual details as required by the BFHL challenge.
