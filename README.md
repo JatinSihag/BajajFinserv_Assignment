@@ -35,16 +35,16 @@ Notice how various data types (alphabets, numbers, and special characters) are i
 }
 
 Postman Screenshot of Example Request:
-![alt text](<Screenshot 2025-07-29 201607-1.png>)
+![alt text](<Screenshot 2025-07-29 204921.png>)
 
 Example Response
 Upon successfully processing the request, the API will return a JSON object categorizing the input, providing personal identification details, and displaying transformed data.
 
 {
   "is_success": true,
-  "user_id": "john_doe_17091999",
-  "email": "john@xyz.com",
-  "roll_number": "ABCD123",
+  "user_id": "jatin_sihag_25062004",
+  "email": "jatin456.be22@chitkara.edu.in",
+  "roll_number": "2210990456",
   "odd_numbers": ["1"],
   "even_numbers": ["334","4"],
   "alphabets": ["A","R"],
@@ -53,8 +53,29 @@ Upon successfully processing the request, the API will return a JSON object cate
   "concat_string": "Ra"
 }
 
+Example Request 2
+This example demonstrates another set of mixed data types including numbers, alphabets, and special characters.
+
+{
+  "data": ["2", "a", "y", "4", "&", "-", "*", "5", "92", "b"]
+}
+
+JSON
+
+{
+  "is_success": true,
+  "user_id": "jatin_sihag_25062004",
+  "email": "jatin456.be22@chitkara.edu.in",
+  "roll_number": "2210990456",
+  "odd_numbers": ["5"],
+  "even_numbers": ["2", "4", "92"],
+  "alphabets": ["A", "Y", "B"],
+  "special_characters": ["&", "-", "*"],
+  "sum": "103",
+  "concat_string": "YBA"
+}
 Postman Screenshot of Example Response:
-![alt text](<Screenshot 2025-07-29 201534.png>)
+![alt text](image.png)
 
 Deployment link :
 https://bajajfinserv-assignment-sz4y.onrender.com
