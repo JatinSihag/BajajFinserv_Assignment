@@ -3,10 +3,10 @@ import express from 'express';
 const app = express();
 app.use(express.json());
 
-const USER_FULL_NAME = 'john_doe';
-const USER_DATE_OF_BIRTH = '17091999';
-const USER_EMAIL = 'john@xyz.com';
-const USER_ROLL_NUMBER = 'ABCD123';
+const USER_FULL_NAME = 'jatin_sihag';
+const USER_DATE_OF_BIRTH = '25062004';
+const USER_EMAIL = 'jatin456.be22@chitkara.edu.in';
+const USER_ROLL_NUMBER = '2210990456';
 
 function isNumber(str) {
   return /^-?\d+$/.test(str);
