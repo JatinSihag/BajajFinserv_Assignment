@@ -1,5 +1,7 @@
 BFHL API - Data Transformation Service
+
 Author : Jatin Sihag 
+
 This is a simple Node.js REST API designed to process and categorize various data types as part of the BFHL (Backend Frontend Handling Logic) challenge. It handles numbers, alphabets, and special characters, performing specific transformations and calculations.
 
 How to Run Locally
